@@ -1,155 +1,174 @@
-    /* Reglas por defecto */
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    * {
-        box-sizing: border-box;
-        /* https://fonts.google.com */
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    body {
-        margin: 50px;
-    }
-    /* Clear floats after the columns */
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    /*NAVEGADOR*/
-    
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(0, 0, 0);
-        position: -webkit-sticky;
-        /* Safari */
-        position: sticky;
-        top: 0;
-    }
-    
-    li {
-        float: right;
-    }
-    
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: rgb(255, 255, 255);
-        color: black;
-    }
-    
-    .active {
-        background-color: #4CAF50;
-    }
-    /*REGLAS COLUMNAS */
-    
-    .column-1 {
-        width: 100%;
-        float: left;
-    }
-    
-    .column-2 {
-        width: 50%;
-        float: left;
-    }
-    
-    .column-3 {
-        width: 33.33%;
-        float: left;
-    }
-    
-    .column-4 {
-        width: 25%;
-        float: left;
-    }
-    
-    .column-3-1 {
-        width: 25%;
-        float: left;
-    }
-    
-    .column-3-2 {
-        width: 75%;
-        float: right;
-    }
-    /*BODY*/
-    
-    .box {
-        background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
-    }
-    /*HEADER*/
-    
-    #header {
-        background-color: rgba(0, 0, 0, 0.904);
-        background-image: url(./../img/paisaje.png);
-        color: white;
-        padding-top: 15vw;
-        padding-bottom: 15vw;
-        filter: brightness(0.8);
-    }
-    
-    #icons-header a {
-        padding: 5px;
-    }
-    /*PRIMERA SECCIÓN */
-    
-    img {
-        width: 100%;
-    }
-    
-    #section-1 {
-        background-color: #fff;
-        color: black;
-    }
-    
-    #section-1 p {
-        padding-top: 5vh;
-        font-size: 1.7vw;
-        text-align: justify;
-        margin: 15px;
-    }
-    /*SEGUNDA SECCIÓN*/
-    
-    #Section-2 {
-        background-color: white;
-    }
-    /*Estilos DIV*/
-    
-    .estilo-caja {
-        box-shadow: 10px 10px grey;
-    }
-    /*IMAGEN DE CIRCULAR */
-    
-    .circular {
-        display: inline-block;
-        position: relative;
-        width: 300px;
-        height: 300px;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-    /*Reglas Auxiliares*/
-    
-    .flex {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .relleno-auxiliar {
-        padding-bottom: 4%;
-        padding-top: 4%;
-    }
+        /*---------Reglas por defecto------------*/
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        * {
+            box-sizing: border-box;
+            /* https://fonts.google.com */
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        body {
+            margin: 0px;
+        }
+        /*----------Clear floats after the columns----------*/
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /*-------------COLOR PÁGINA WEB ENTERA-----------------*/
+        
+        .box {
+            background-color: #3EECAC;
+            background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+        }
+        /*-------------NAVEGADOR-----------------*/
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+            position: -webkit-sticky;
+            /* Safari */
+            position: sticky;
+            top: 0;
+        }
+        
+        li {
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        /*------------------------------REGLAS COLUMNAS------------------------*/
+        
+        .column-1 {
+            width: 100%;
+            float: left;
+        }
+        
+        .column-2 {
+            width: 50%;
+            float: left;
+        }
+        
+        .column-3 {
+            width: 33.33%;
+            float: left;
+        }
+        
+        .column-4 {
+            width: 25%;
+            float: left;
+        }
+        /*------------------------HEADER---------------------------*/
+        
+        #header {
+            background-image: url(./../img/paisaje.png);
+            color: white;
+            padding-top: 10vw;
+            padding-bottom: 10vw;
+            text-align: center;
+        }
+        /*------------------------SECTION-1---------------------------*/
+        
+        #section-1 {
+            margin: 20px;
+        }
+        
+        #section-1 p {
+            font-size: 20px;
+            text-align: justify;
+        }
+        /*------------------------SECTION-2---------------------------*/
+        
+        #Section-2 {
+            margin: 20px;
+            font-size: 20px;
+        }
+        
+        .IMG-2 img {
+            width: 40%;
+            padding-top: 3%;
+        }
+        
+        .IMG-1 img {
+            width: 60%;
+            padding-top: 5%;
+        }
+        /*------------------------SECTION-3---------------------------*/
+        
+        #section-3 {
+            margin: 20px;
+            font-size: 20px;
+        }
+        
+        #section-3 img {
+            width: 40%;
+        }
+        /*------------------------PIE DE PÁGINA---------------------------*/
+        
+        #footer {
+            margin: 20px;
+        }
+        /*------------------------ICONOS---------------------------*/
+        
+        #icons-header a {
+            padding: 15px;
+        }
+        /*-------------------ESTILOS CAJAS/COLOR SECCIONES----------------------*/
+        
+        .color {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        
+        .estilo-caja {
+            box-shadow: 10px 10px rgba(0, 0, 0, 0.589);
+        }
+        /*------------------VIDEO DE YOUTUBE-------------------*/
+        
+        #section-1 iframe {
+            height: 40.4vh;
+        }
+        
+        #Section-2 iframe {
+            height: 25.7vh;
+        }
+        /*------------------REGLAS AUXILIARES-------------------*/
+        
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .relleno-auxiliar {
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }
+        
+        .relleno-lados {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        
+        .lat {
+            padding-left: 3%;
+        }
