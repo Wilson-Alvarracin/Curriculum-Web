@@ -82,8 +82,8 @@
         #header {
             background-image: url(./../img/paisaje.png);
             color: white;
-            padding-top: 10vw;
-            padding-bottom: 10vw;
+            padding-top: 25vw;
+            padding-bottom: 25vw;
             text-align: center;
         }
         /*------------------------SECTION-1---------------------------*/
@@ -170,5 +170,61 @@
         }
         
         .lat {
-            padding-left: 3%;
+            padding-left: 2%;
+        }
+        
+        @media screen and (max-width: 700px) {
+            /*--------------CABEZERA ---------------*/
+            #header {
+                padding-top: 60vw;
+                padding-bottom: 60vw;
+            }
+            /*-------------- SECCIÓN-1 ---------------*/
+            #section-1 p {
+                font-size: 14px;
+                text-align: justify;
+            }
+            /*------------------------ICONOS---------------------------*/
+            #icons-header a {
+                padding: 15px;
+            }
+            /*------------------------SECTION-2---------------------------*/
+            #Section-2 {
+                margin: 20px;
+                font-size: 20px;
+            }
+            .IMG-2 img {
+                width: 70%;
+                padding-bottom: 15%;
+            }
+            .IMG-1 img {
+                width: 80%;
+                padding-bottom: 15%;
+            }
+            .lat {
+                padding-top: 3%;
+            }
+            #section-2 iframe {
+                padding-top: 15px;
+            }
+            /*--------------REGLA COLUMNAS ---------------*/
+            .column-2 {
+                width: 100%;
+            }
+            .column-3 {
+                width: 100%;
+            }
+            /*------------------REGLAS AUXILIARES-------------------*/
+            .flex {
+                display: block;
+            }
+            .ctr {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .lat {
+                padding-left: 0;
+                padding-top: 5%
+            }
         }

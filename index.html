@@ -28,14 +28,18 @@
 
     <!----BARRA DE NAVEGACIÓN--->
     <ul>
-        <li><a href="#home">Acerca de Mí</a></li>
-        <li><a href="#news">Estudios</a></li>
-        <li><a href="#contact">Formación</a></li>
+        <li><a><select name="language" id="language" onchange="language()">
+            <option value="ES" selected>ES</option>
+            <option value="EN">EN</option></select></a>
+        </li>
+        <li><a href="#Section-2">Expereiencia</a></li>
+        <li><a href="#header">¿Quién soy?</a></li>
+        <li><a href="#section-1"><i class="fas fa-arrow-up"></i></a></li>
     </ul>
     </div>
     <!----ACERCA DE MÍ --->
     <div id="section-1" class="row">
-        <div class="column-1 flex color estilo-caja">
+        <div class="column-1 flex color estilo-caja ctr">
             <h1>¿QUIÉN SOY?</h1>
         </div>
         <!---- ESPACIO EN BLANCO  --->
@@ -60,11 +64,12 @@
     </div>
 
     <!--- ICONO REDES SOCIALES  --->
-    <div id="icons-header" class="flex column-1">
-        <a href="https://github.com/Wilson-Alvarrcin"><i class="fab fa-github fa-4x" style="color: rgb(0, 0, 0);"></i></a>
-        <a href="https://www.instagram.com/wilson_175/"><i class="fab fa-instagram fa-4x" style="color: rgb(0, 0, 0);"></i></a>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x" style="color: rgb(0, 0, 0);"></i></a>
-        <a href="https://www.twitter.com"><i class="fab fa-twitter fa-4x" style="color: rgb(0, 0, 0);"></i></a>
+    <div id="icons-header" class="flex ctr">
+        <a href="https://github.com/Wilson-Alvarrcin"><i class="fab fa-github fa-3x" style="color: rgb(0, 0, 0);"></i></a>
+        <a href="https://www.instagram.com/wilson_175/"><i class="fab fa-instagram fa-3x" style="color: rgb(0, 0, 0);"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x" style="color: rgb(0, 0, 0);"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter fa-3x" style="color: rgb(0, 0, 0);"></i></a>
+
     </div>
 
     <!---- ESPACIO EN BLANCO  --->
@@ -78,7 +83,7 @@
     <!---- ESTUDIOS --->
 
     <div id="section-1" class="row">
-        <div class="column-1 flex color estilo-caja">
+        <div class="column-1 flex color estilo-caja ctr">
             <h1>FORMACIÓN</h1>
         </div>
     </div>
@@ -94,7 +99,7 @@
 
     <div id="Section-2" class="row">
         <!---- ESTUDIOS SECUNDARIOS --->
-        <div class="column-3 flex IMG-2">
+        <div class="column-3 flex IMG-2 ctr">
             <img src="./img/LOGO-MERCE-as-esportiva3-.png" alt="Logotipo merce Rodoreda">
         </div>
         <div class="column-3 relleno-auxiliar color estilo-caja relleno-lados">
@@ -118,7 +123,7 @@
         </div>
 
         <!---- GRADO MEDIO --->
-        <div class="column-3 relleno-auxiliar flex IMG-1">
+        <div class="column-3 relleno-auxiliar flex IMG-1 ctr">
             <img src="./img/logo joan23.png" alt="Logotipo joan23">
         </div>
         <div class="column-3 relleno-auxiliar color estilo-caja relleno-lados">
@@ -134,7 +139,7 @@
         </div>
     </div>
     <div id="section-3" class="row">
-        <div class="column-1 flex color estilo-caja">
+        <div class="column-1 flex color estilo-caja ctr">
             <h1>EXPERIENCIA</h1>
         </div>
         <div class="row">
@@ -143,7 +148,7 @@
             </div>
         </div>
 
-        <div class="column-2 relleno-auxiliar flex IMG-1">
+        <div class="column-2 relleno-auxiliar flex IMG-1 ctr">
             <img src="./img/GoldenlinePNG" alt="Golden Line">
         </div>
         <div class="column-2 relleno-auxiliar color estilo-caja relleno-lados">
@@ -157,13 +162,8 @@
 
     <!---- PIE DE PÁGINA --->
 
-    <div id="footer" class="row relleno-lateral relleno-auxiliar">
-        <div class="column2 row">
-            <h2>Selecciona tu idioma</h2>
-            <select name="language" id="language" onchange="language()">
-                <option value="ES" selected>Español</option>
-                <option value="EN">English</option>
-            </select>
+    <div id="footer" class="row">
+    </div>
 </body>
 
 </html>
