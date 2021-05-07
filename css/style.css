@@ -23,8 +23,8 @@
         /*-------------COLOR PÁGINA WEB ENTERA-----------------*/
         
         .box {
-            background-color: #3EECAC;
-            background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
         }
         /*-------------NAVEGADOR-----------------*/
         
@@ -52,9 +52,16 @@
             text-decoration: none;
         }
         
-        li a:hover {
+        li a:hover:not(select) {
             background-color: rgb(255, 255, 255);
             color: black;
+        }
+        /*-------------ESTILOS SELECCIÓN IDIOMA-----------------*/
+        
+        select {
+            background-color: black;
+            color: white;
+            border: none;
         }
         /*------------------------------REGLAS COLUMNAS------------------------*/
         
@@ -80,10 +87,10 @@
         /*------------------------HEADER---------------------------*/
         
         #header {
-            background-image: url(./../img/paisaje.png);
+            background-image: url(./../img/Inicio.png);
             color: white;
-            padding-top: 25vw;
-            padding-bottom: 25vw;
+            padding-top: 21vw;
+            padding-bottom: 21vw;
             text-align: center;
         }
         /*------------------------SECTION-1---------------------------*/
@@ -135,8 +142,8 @@
         /*-------------------ESTILOS CAJAS/COLOR SECCIONES----------------------*/
         
         .color {
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.726);
+            color: rgb(255, 255, 255);
         }
         
         .estilo-caja {
@@ -145,11 +152,11 @@
         /*------------------VIDEO DE YOUTUBE-------------------*/
         
         #section-1 iframe {
-            height: 40.4vh;
+            height: 67.7vh;
         }
         
         #Section-2 iframe {
-            height: 25.7vh;
+            height: 35vh;
         }
         /*------------------REGLAS AUXILIARES-------------------*/
         
@@ -174,10 +181,17 @@
         }
         
         @media screen and (max-width: 700px) {
+            /*-------------COLOR PÁGINA WEB ENTERA-----------------*/
+            .box {
+                background-color: #4158D0;
+                background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            }
             /*--------------CABEZERA ---------------*/
             #header {
+                background-image: url(./../img/inicio\ responsive.png);
                 padding-top: 60vw;
                 padding-bottom: 60vw;
+                background-position: center;
             }
             /*-------------- SECCIÓN-1 ---------------*/
             #section-1 p {
