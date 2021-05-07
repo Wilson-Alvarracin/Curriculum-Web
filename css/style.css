@@ -154,6 +154,7 @@
         #section-1 iframe {
             height: 67.7vh;
         }
+        /*------------------MAPA GOOGLE MAPS-------------------*/
         
         #Section-2 iframe {
             height: 35vh;
@@ -240,5 +241,9 @@
             .lat {
                 padding-left: 0;
                 padding-top: 5%
+            }
+            /*------------------VIDEO DE YOUTUBE-------------------*/
+            #section-1 iframe {
+                height: 50vh;
             }
         }
